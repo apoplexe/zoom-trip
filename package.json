@@ -1,0 +1,24 @@
+{
+    "name": "zoom-trip",
+    "version": "0.1.0",
+    "description": "useless app",
+    "main": "index.js",
+    "author": "alpolex <eddine.zeroual@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node api/server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node api/server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "next": "^7.0.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "devDependencies": {
+        "@types/next": "^7.0.4",
+        "@types/react": "^16.7.4",
+        "@zeit/next-typescript": "^1.1.1"
+    }
+}
