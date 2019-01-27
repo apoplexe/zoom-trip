@@ -1,19 +1,13 @@
+// TODO: styled components lib
 import Header from '../components/Header'
 import Layout from '../components/Layout'
-import { withRouter, SingletonRouter } from 'next/router'
 
-interface Props {
-    title?: any,
-    router?: SingletonRouter
-}
-
-const Index = withRouter((props: Props) => (
-    <div>
+const Index = () => (
+    <>
         <Layout>
             <Header />
-            {props.router.query.title}
         </Layout>
-    </div>
-))
+    </>
+)
 
 export default Index
